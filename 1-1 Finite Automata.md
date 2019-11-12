@@ -10,14 +10,14 @@ Closed  | Closed  | Open  | Closed| Closed
 Open    | Closed  | Open  | Open  | Open
 
 ## A finite Automaton is a 5-tuple
-+ Q is a finite set called the states
-+ Σ is a finite set called the alphabet
-+ δ Q × Σ → Q is the transition function
++ __Q__ is a finite set called the states
++ __Σ__ is a finite set called the alphabet
++ __δ__ Q × Σ → Q is the transition function
     + Q: current state
     + Σ: input symbol
     + Q: next state
-+ q<sub>0</sub> ∈ Q is the start state
-+ F ⊆ Q is the set of accept state
++ __q<sub>0</sub>__ ( q<sub>0</sub> ∈ Q ) is the start state
++ __F__ ( F ⊆ Q ) is the set of accept state
 
 ## For Example a Finite Machine M<sub>1</sub>
 ![M1](https://imgur.com/aEva9zQ.png)
