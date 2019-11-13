@@ -109,7 +109,7 @@ does some DFA, and hence the language is
 regular
 
 ##### Theorem: The class of regular languages is closed under the `UNION` operation
-proof: (proof by construction, and use NFAS in model)
+proof: (proof by construction, and use NFAs in model)
 
 Let N<sub>1</sub> = ( Q<sub>1</sub>, Σ, δ<sub>1</sub>, q<sub>1</sub>, F<sub>1</sub> ) recognizes A<sub>1</sub>, N<sub>2</sub>=( Q<sub>2</sub>, Σ, δ<sub>2</sub>, q<sub>2</sub>, F<sub>2</sub> ) recognizes A<sub>2</sub>
 
@@ -127,7 +127,7 @@ Construct N = ( Q, Σ, δ, q<sub>0</sub>, F ) to recognize A<sub>1</sub> ∪ A<s
 ![UNION 示意圖](https://imgur.com/irL0hKP.png)
 
 ##### Theorem: The class of regular languages is closed under the `CONCATENATION` operation
-proof: (proof by construction, and use NFAS in model)
+proof: (proof by construction, and use NFAs in model)
 
 Let N<sub>1</sub> = ( Q<sub>1</sub>, Σ, δ<sub>1</sub>, q<sub>1</sub>, F<sub>1</sub> ) recognizes A<sub>1</sub>, N<sub>2</sub>=( Q<sub>2</sub>, Σ, δ<sub>2</sub>, q<sub>2</sub>, F<sub>2</sub> ) recognizes A<sub>2</sub>
 
