@@ -9,7 +9,7 @@ If A is context-free language, than there is a number p (the pumping length ) wh
 * | vy | > 0 ( vy 不是空字串 )
 * | vxy | ≤ p
 
-### Proof of "pumping Lemma for CFL" (不考)
+### Proof of "pumping Lemma for CFL"
 ...待補...
 
 ### Show that B={a<sup>n</sup>b<sup>n</sup>c<sup>n</sup> | n≥0} is not CFL.
@@ -17,6 +17,18 @@ We assume that B is a CFL and obtain a contradiction. Let p be the pumping lengt
 
 First, condition 2 stipulates(規定) that either v or y is nonempty. Then we consider one of two cases, depending on whether substrings v and y contain more than one type of alphabet symbol.
 
-1. When both v and y contain only one type of alphabet symbol, v does not contain both a's and b's or both b's and c's, and the same holds for y. In this case the string uv<sup>2</sup>xy<sup>2</sup>z cannot contain equal numbers of a's, b's, and c's. Therefore it can't be member of B. That violates conditoin 1 of lemma and is thus a contradiction.
+1. When both v and y __contain only one type of alphabet symbol__, v does not contain both a's and b's or both b's and c's, and the same holds for y. In this case the string uv<sup>2</sup>xy<sup>2</sup>z cannot contain equal numbers of a's, b's, and c's. Therefore it can't be member of B. That violates conditoin 1 of lemma and is thus a contradiction.
 
-2. When either v or y contain more than one type of symbol uv<sup>2</sup>xy<sup>2</sup>z may contain equl numbers of the three alphabet symbols but not in the correct order. Hence it can't be a member of B and a contradiction occurs.
+2. When either v or y __contain more than one type of symbol__ uv<sup>2</sup>xy<sup>2</sup>z may contain equl numbers of the three alphabet symbols but not in the correct order. Hence it can't be a member of B and a contradiction occurs.
+
+A language is called Turing-recognizable if some Turing machine recogizes it.
+
+### Prove that A={0<sup>n</sup>1<sup>n</sup>0<sup>n</sup>1<sup>n</sup> | n≥0 } is not context-free.
+Assume that A is context-free
+
+s = 0<sup>p</sup>1<sup>p</sup>0<sup>p</sup>1<sup>p</sup> pumping length 4p > p <br>
+s = uvxyz
+
+case1: 假設 u,y 包含 1 個符號，則 uv<sup>2</sup>xy<sup>2</sup>z is not in A (矛盾)
+
+case2: 假設 u,y 包含有 2 個不同符號，則 uv<sup>2</sup>xy<sup>2</sup>z is not in A (因為0,1會交錯出現) (矛盾)
