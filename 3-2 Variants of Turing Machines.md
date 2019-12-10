@@ -1,4 +1,5 @@
 # Variants of Turing Machines (不考)
+
 圖靈機的變型
 
 1. 多磁帶
