@@ -7,6 +7,12 @@
 3. The tape is infinite
 4. The special states for rejecting and accepting take effect immediately.
 
+![](https://imgur.com/qaP7qci.png)
+
+$$
+1011q_701111
+$$
+
 ### Definition of Turing Machine
 
 A Turing machine is a 7-tuple (Q, Σ, Γ, δ, q<sub>0</sub>, q<sub>accept</sub>, q<sub>reject</sub>)
@@ -67,7 +73,7 @@ Turing-decidable language language is alse called __recursive language__(遞迴�
 
 ### Example
 
-Here we describe a Turing machine M<sub>2</sub> that decides A =  { 0<sup>2^n </sup> | n ≥ 0 } , the language consisting of all strings of 0s whose length is power of 2.
+Here we describe a Turing machine M<sub>2</sub> that decides $A=\{0^{2^n}|n\ge0\}$  , the language consisting of all strings of 0s whose length is power of 2.
 
 M<sub>2</sub> on input string w =
 
